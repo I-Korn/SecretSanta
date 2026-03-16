@@ -1,0 +1,6 @@
+{
+  "boxCard": ".user-card",
+  "goToStartButton": "a > .txt-secondary--med",
+  "submitButton": ".santa-modal_content_buttons > .btn-main",
+  "successfullNotice": ".picture-notice"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "secretsanta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:headed": "cypress run --headed",
+    "cy:feature": "cypress run --spec 'cypress/e2e/test/login.feature'",
+    "cy:spec1": "cypress run --spec 'cypress/e2e/createBox.cy.js'",
+    "cy:spec2": "cypress run --spec 'cypress/e2e/userLoginAndChangeChangePasswordWithPageObject.cy.js'",
+    "cy:spec3": "cypress run --spec 'cypress/e2e/userLoginAndChangePasswordAPIandUI.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "@faker-js/faker": "^10.2.0",
+    "cypress": "^15.10.0",
+    "esbuild": "^0.27.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.0"
+  }
+}
