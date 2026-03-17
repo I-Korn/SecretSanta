@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker";
-import { LoginPage } from "../fixtures/pages/loginPage"; // импорт файла с классом LoginPage
+import { LoginPage } from "../fixtures/pages/loginPage";
 
 const users = Cypress.env("users");
 const createBoxPage = require("../fixtures/pages/createBoxPage.json");

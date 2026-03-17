@@ -6,8 +6,6 @@
   "scripts": {
     "cy:run": "cypress run",
     "cy:open": "cypress open",
-    "cy:chrome": "cypress run --browser chrome",
-    "cy:headed": "cypress run --headed",
     "cy:feature": "cypress run --spec 'cypress/e2e/test/login.feature'",
     "cy:spec1": "cypress run --spec 'cypress/e2e/createBox.cy.js'",
     "cy:spec2": "cypress run --spec 'cypress/e2e/userLoginAndChangeChangePasswordWithPageObject.cy.js'",
